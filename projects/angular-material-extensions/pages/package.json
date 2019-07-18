@@ -2,14 +2,14 @@
   "name": "@angular-material-extensions/pages",
   "description": "Open source library for angular apps to illustrate custom material pages content with steps (ideal for tutorials and explanation purposes)",
   "version": "2.1.0",
-  "homepage": "https://github.com/angular-material-extensions/pages",
+  "homepage": "https://github.com/angular-material-extensions/components/tree/master/projects/angular-material-extensions/pages",
   "author": {
     "name": "anthonynahas",
     "url": "https://github.com/anthonynahas"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/angular-material-extensions/pages.git"
+    "url": "https://github.com/angular-material-extensions/components.git"
   },
   "license": "MIT",
   "schematics": "./schematics/collection.json",
@@ -26,20 +26,25 @@
     "turorials"
   ],
   "bugs": {
-    "url": "https://github.com/angular-material-extensions/pages/issues"
+    "url": "https://github.com/angular-material-extensions/components/issues"
   },
   "scripts": {
     "build": "../../../node_modules/.bin/ng build @angular-material-extensions/pages",
     "build:schematics": "../../../node_modules/.bin/tsc -p tsconfig.schematics.json",
     "resync:schematics": "rsync -a schematics/collection.json ../../../dist/angular-material-extensions/pages/schematics/",
     "postbuild": "npm run build:schematics && npm run resync:schematics",
-    "postpublish": "PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag pages_v$PACKAGE_VERSION && git push --tags"
+    "postpublish": "PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag pages_v$PACKAGE_VERSION && git push --tags",
+    "semantic-release": "../../../node_modules/.bin/semantic-release",
+    "semantic-release-no-ci": "../../../node_modules/.bin/semantic-release --no-ci"
   },
   "peerDependencies": {
     "@angular/common": "^8.1.1",
     "@angular/core": "^8.1.1",
     "@angular/cdk": "^8.1.1",
     "@angular/material": "^8.1.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   },
   "release": {
     "branch": "pages",
