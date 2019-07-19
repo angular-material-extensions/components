@@ -1,7 +1,7 @@
 {
   "name": "@angular-material-extensions/pages",
   "description": "Open source library for angular apps to illustrate custom material pages content with steps (ideal for tutorials and explanation purposes)",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "homepage": "https://github.com/angular-material-extensions/components/tree/master/projects/angular-material-extensions/pages",
   "author": {
     "name": "anthonynahas",
@@ -35,7 +35,7 @@
     "postbuild": "npm run build:schematics && npm run resync:schematics",
     "postpublish": "PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag pages_v$PACKAGE_VERSION && git push --tags",
     "semantic-release": "../../../node_modules/.bin/semantic-release",
-    "semantic-release-no-ci": "../../../node_modules/.bin/semantic-release -e semantic-release-monorepo --no-ci"
+    "semantic-release-no-ci": "../../../node_modules/.bin/semantic-release -e semantic-release-monorepo --no-ci -d"
   },
   "peerDependencies": {
     "@angular/common": "^8.1.1",

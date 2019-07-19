@@ -12,6 +12,7 @@
 [![CircleCI branch](https://img.shields.io/circleci/project/github/angular-material-extensions/components/master.svg?label=circleci)](https://circleci.com/gh/angular-material-extensions/components)
 [![codecov](https://codecov.io/gh/angular-material-extensions/components/branch/master/graph/badge.svg)](https://codecov.io/gh/angular-material-extensions/components)
 [![Greenkeeper Badge](https://badges.greenkeeper.io/angular-material-extensions/components.svg)](https://greenkeeper.io/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![license](https://img.shields.io/github/license/angular-material-extensions/components.svg?style=flat-square)](https://github.com/angular-material-extensions/components/blob/master/LICENSE)
 
 ## Built by and for developers :heart:
@@ -41,6 +42,7 @@ View all the directives in action at https://angular-material-extensions.github.
 [![npm demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://angular-material-extensions.io/dialogs)
 [![dependency Status](https://david-dm.org/angular-material-extensions/dialogs/status.svg)](https://david-dm.org/angular-material-extensions/dialogs)
 [![devDependency Status](https://david-dm.org/angular-material-extensions/dialogs/dev-status.svg?branch=master)](https://david-dm.org/angular-material-extensions/dialogs#info=devDependencies)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![license](https://img.shields.io/github/license/angular-material-extensions/components.svg?style=flat-square)](https://github.com/angular-material-extensions/components/blob/master/LICENSE)
 
 ### @angular-material-extensions/pages | [see more](https://github.com/angular-material-extensions/components/tree/master/projects/angular-material-extensions/pages) [changelog](https://github.com/angular-material-extensions/components/tree/master/projects/angular-material-extensions/dialogs/docs/CHANGELOG.md)
@@ -48,6 +50,7 @@ View all the directives in action at https://angular-material-extensions.github.
 [![npm demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://angular-material-extensions.github.io/pages)
 [![dependency Status](https://david-dm.org/angular-material-extensions/pages/status.svg)](https://david-dm.org/angular-material-extensions/pages)
 [![devDependency Status](https://david-dm.org/angular-material-extensions/pages/dev-status.svg?branch=master)](https://david-dm.org/angular-material-extensions/pages#info=devDependencies)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![license](https://img.shields.io/github/license/angular-material-extensions/components.svg?style=flat-square)](https://github.com/angular-material-extensions/components/blob/master/LICENSE)
 
 Set of prebuilt extended angular material dialogs as components | simple API and easy to use
