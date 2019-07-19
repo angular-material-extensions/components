@@ -3,7 +3,7 @@
 </p>
 
 
-# @angular-material-extensions/pages - Open source library for Angular Apps to illustrate custom material pages content with steps (ideal for tutorials and explanation purposes) - Angular V7 supported
+# @angular-material-extensions/pages - Open source library for Angular Apps to illustrate custom material pages content with steps (ideal for tutorials and explanation purposes) - Angular V8 supported
 
 [![npm version](https://badge.fury.io/js/%40angular-material-extensions%2Fpages.svg)](https://badge.fury.io/js/%40angular-material-extensions%2Fpages)
 [![npm demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://angular-material-extensions.github.io/pages)
@@ -62,20 +62,18 @@ by starring :star: and sharing it :loudspeaker:
 View all the directives and components in action at [https://angular-material-extensions.github.io/pages](https://angular-material-extensions.github.io/pages)
 
 ## Dependencies
-* [Angular](https://angular.io) (*requires*) tested with V7
-- if you are still using angular v5 or lower, please use the following version `1.2.1`
-
+* [Angular](https://angular.io) (*requires*) tested with V8
 
 > This project has been renamed from [@angular-material-extensions/pages](https://www.npmjs.com/package/@angular-material-extensions/pages) to [@angular-material-extensions/pages](https://github.com/angular-material-extensions/pages)
 
 <a name="peerDependencies"/>
 
 ## Peer Dependencies
-- [angular animations v7.x](https://www.npmjs.com/package/@angular/animations)
-- [angular material v7.x](https://www.npmjs.com/package/@angular/material)
-- [angular cdk v7.x](https://www.npmjs.com/package/@angular/cdk)
+- [angular animations v8.x](https://www.npmjs.com/package/@angular/animations)
+- [angular material v8.x](https://www.npmjs.com/package/@angular/material)
+- [angular cdk v8.x](https://www.npmjs.com/package/@angular/cdk)
 
-> [learn more about angular material and cdk](https://material.angular.io/guide/getting-started#step-1-install-angular-material-and-angular-cdk)
+> [learn more about angular material and c2dk](https://material.angular.io/guide/getting-started#step-1-install-angular-material-and-angular-cdk)
 
 > if you need a built in theme --> please let me know
 ```bash
@@ -252,31 +250,20 @@ or follow the official [tutorial](https://angular-material-extensions.github.io/
 
 ## Run Demo App Locally
 
-- [clone this repo](https://github.com/angular-material-extensions/pages.git) by running
+- [clone this repo](https://github.com/angular-material-extensions/components.git) by running
 ```bash
-$ git clone https://github.com/angular-material-extensions/pages.git
-```
-
-- link the **@angular-material-extensions/pages** package
-
-```bash
-$ gulp link
-```
-
-- build the library
-
-```bash
-$ gulp build
-```
-
-- navigate to the demo app directory
-```bash
-$ cd demo
+$ git clone https://github.com/angular-material-extensions/components.git
 ```
 
 - install the dependencies
 ```bash
 $ npm i
+```
+
+- build the libraries
+
+```bash
+$ ng build @angular-material-extensions/dialogs && ng build @angular-material-extensions/pages
 ```
 
 - run/start/serve the app

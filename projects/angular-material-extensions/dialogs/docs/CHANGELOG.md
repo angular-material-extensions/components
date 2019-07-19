@@ -1,55 +1,132 @@
-## [1.0.1](https://github.com/angular-material-extensions/components/compare/v1.0.0...v1.0.1) (2019-07-17)
+# [2.1.0](https://github.com/angular-material-extensions/pages/compare/v2.0.0...v2.1.0) (2018-11-02)
 
 
 ### Bug Fixes
 
-* **components:** bumped the version of the app ([ebda1db](https://github.com/angular-material-extensions/components/commit/ebda1db))
-
-# 1.0.0 (2019-07-16)
-
-
-### Bug Fixes
-
-* **app:** updated the npm scripts and downgraded ts to v 3.4.3 ([513463c](https://github.com/angular-material-extensions/components/commit/513463c))
-* **ci:** solved issues in the circle.ci config file ([38fccf0](https://github.com/angular-material-extensions/components/commit/38fccf0))
-* **ci:** solved issues in the circle.ci config file ([9e5953a](https://github.com/angular-material-extensions/components/commit/9e5953a))
-* **ci:** solved issues in the circle.ci config file ([4be5ec2](https://github.com/angular-material-extensions/components/commit/4be5ec2))
-* **ci:** solved issues in the circle.ci config file ([04c6296](https://github.com/angular-material-extensions/components/commit/04c6296))
-* **ci:** solved issues in the circle.ci config file ([1550753](https://github.com/angular-material-extensions/components/commit/1550753))
-* **ci:** solved issues in the circle.ci config file ([79bc19a](https://github.com/angular-material-extensions/components/commit/79bc19a))
-* **ci:** solved issues in the circle.ci config file ([b82f5b5](https://github.com/angular-material-extensions/components/commit/b82f5b5))
-* **ci:** solved issues in the circle.ci config file ([2497299](https://github.com/angular-material-extensions/components/commit/2497299))
-* **ci:** solved issues in the circle.ci config file ([c2a3c6c](https://github.com/angular-material-extensions/components/commit/c2a3c6c))
-* **ci:** solved issues in the circle.ci config file ([9b45122](https://github.com/angular-material-extensions/components/commit/9b45122))
-* **ci:** solved issues in the circle.ci config file ([3e6f834](https://github.com/angular-material-extensions/components/commit/3e6f834))
-* **core:** added schematics-utilities as dev dependency ([f4d23a1](https://github.com/angular-material-extensions/components/commit/f4d23a1))
-* **core:** updated the dependencies ([78efbfc](https://github.com/angular-material-extensions/components/commit/78efbfc))
-* **demo:** updated the md scripts ([5d4c30e](https://github.com/angular-material-extensions/components/commit/5d4c30e))
-* **dialogs:** updated the dependencies ([8c5ee13](https://github.com/angular-material-extensions/components/commit/8c5ee13))
-* **dialogs:** updated the properties of the package.json ([5f2a9ad](https://github.com/angular-material-extensions/components/commit/5f2a9ad))
-* **dialogs:** updated the properties of the package.json ([e4d7f2e](https://github.com/angular-material-extensions/components/commit/e4d7f2e))
-* **package:** added github issue template ([f82bd02](https://github.com/angular-material-extensions/components/commit/f82bd02))
-* **project:** added semantic release to the project ([02d71c8](https://github.com/angular-material-extensions/components/commit/02d71c8))
-* **project:** fixed issues with ssr ([f0b89ce](https://github.com/angular-material-extensions/components/commit/f0b89ce))
-* **project:** fixed the directive and component selectors ([2a90543](https://github.com/angular-material-extensions/components/commit/2a90543))
-* **project:** minor ([89d33d7](https://github.com/angular-material-extensions/components/commit/89d33d7))
-* **project:** updated angular ([9a70726](https://github.com/angular-material-extensions/components/commit/9a70726))
-* **project:** updated angular ([656b4c2](https://github.com/angular-material-extensions/components/commit/656b4c2))
-* **project:** updated angular and other dependencies ([9af1f02](https://github.com/angular-material-extensions/components/commit/9af1f02))
-* **project:** updated the dependencies ([7cf6024](https://github.com/angular-material-extensions/components/commit/7cf6024))
-* **project:** updated the dependencies ([a085907](https://github.com/angular-material-extensions/components/commit/a085907))
-* **project:** updated the gitignore ([cf51cfb](https://github.com/angular-material-extensions/components/commit/cf51cfb))
+* **package:** adjusted the "ngswConfigPath" ([abf40a8](https://github.com/angular-material-extensions/pages/commit/abf40a8))
+* **project:** minor ([da3f437](https://github.com/angular-material-extensions/pages/commit/da3f437))
 
 
 ### Features
 
-* **app:** added cricleci config file ([ead410b](https://github.com/angular-material-extensions/components/commit/ead410b))
-* **dialogs:** added dialogs components to the library ([b91d491](https://github.com/angular-material-extensions/components/commit/b91d491))
-* **dialogs:** added material dialogs components ([0100798](https://github.com/angular-material-extensions/components/commit/0100798))
-* **dialogs:** added new dialogs lib (emtpy) ([71ab69f](https://github.com/angular-material-extensions/components/commit/71ab69f))
-* **dialogs:** added new dialogs lib (emtpy) ([1458ad4](https://github.com/angular-material-extensions/components/commit/1458ad4))
-* **project:** added dialogs page and installed ngx-markdown ([a5245ce](https://github.com/angular-material-extensions/components/commit/a5245ce))
-* **project:** integration of firebase hosting ([f4b201a](https://github.com/angular-material-extensions/components/commit/f4b201a))
-* **project:** integration of some new components from material angular io ([8937760](https://github.com/angular-material-extensions/components/commit/8937760))
-* **ssr:** added ssr and prerender strategy support ([10ec589](https://github.com/angular-material-extensions/components/commit/10ec589))
-* **ssr:** added ssr and prerender support ([133f8b8](https://github.com/angular-material-extensions/components/commit/133f8b8))
+* **package:** support of angular v7 ([0f51db6](https://github.com/angular-material-extensions/pages/commit/0f51db6))
+
+
+
+# [2.0.0](https://github.com/angular-material-extensions/pages/compare/v1.3.2...v2.0.0) (2018-08-11)
+
+
+
+## [1.3.2](https://github.com/angular-material-extensions/pages/compare/v1.3.1...v1.3.2) (2018-06-16)
+
+
+
+## [1.3.1](https://github.com/angular-material-extensions/pages/compare/v1.3.0...v1.3.1) (2018-05-15)
+
+
+### Features
+
+* **ngx-material-pages:** supporting lazy loading for each page ([e78441b](https://github.com/angular-material-extensions/pages/commit/e78441b))
+
+
+
+# [1.3.0](https://github.com/angular-material-extensions/pages/compare/v1.2.1...v1.3.0) (2018-05-10)
+
+
+### Bug Fixes
+
+* **package:** update [@angular](https://github.com/angular)/cdk to version 6.0.1 ([e77a9f7](https://github.com/angular-material-extensions/pages/commit/e77a9f7))
+
+
+
+## [1.2.1](https://github.com/angular-material-extensions/pages/compare/v1.2.0...v1.2.1) (2018-04-22)
+
+
+
+# [1.2.0](https://github.com/angular-material-extensions/pages/compare/v1.1.6...v1.2.0) (2018-04-16)
+
+
+### Bug Fixes
+
+* **ngx-material-pages:** replaced ng-deep with internal manipulation with renderer2 ([51c75dc](https://github.com/angular-material-extensions/pages/commit/51c75dc))
+
+
+
+## [1.1.6](https://github.com/angular-material-extensions/pages/compare/v1.1.5...v1.1.6) (2018-04-15)
+
+
+### Bug Fixes
+
+* **ngx-material-pages:** added the peerDependencies ([3d225b3](https://github.com/angular-material-extensions/pages/commit/3d225b3))
+* **ngx-material-pages:** ng-deep will not affect external tabs ([48fad96](https://github.com/angular-material-extensions/pages/commit/48fad96))
+* **ngx-material-pages:** removed duplicated dependencies under dev ([2cd576e](https://github.com/angular-material-extensions/pages/commit/2cd576e))
+
+
+
+## [1.1.5](https://github.com/angular-material-extensions/pages/compare/v1.1.4...v1.1.5) (2018-04-12)
+
+
+
+## [1.1.4](https://github.com/angular-material-extensions/pages/compare/v1.1.3...v1.1.4) (2018-04-12)
+
+
+
+## [1.1.3](https://github.com/angular-material-extensions/pages/compare/v1.1.2...v1.1.3) (2018-04-12)
+
+
+### Features
+
+* **ngx-material-pages:** input for the title of the toolbar ([da60598](https://github.com/angular-material-extensions/pages/commit/da60598))
+
+
+
+## [1.1.2](https://github.com/angular-material-extensions/pages/compare/v1.1.1...v1.1.2) (2018-04-11)
+
+
+
+## [1.1.1](https://github.com/angular-material-extensions/pages/compare/v1.1.0...v1.1.1) (2018-04-10)
+
+
+
+# [1.1.0](https://github.com/angular-material-extensions/pages/compare/v1.0.1...v1.1.0) (2018-04-10)
+
+
+### Features
+
+* **lib:** added mode to sidenav and template navigation buttons + added pageChanged and done events ([a750582](https://github.com/angular-material-extensions/pages/commit/a750582))
+* **ngx-material-pages:** added optional title input to the outlook component ([5237ea8](https://github.com/angular-material-extensions/pages/commit/5237ea8))
+
+
+
+## [1.0.1](https://github.com/angular-material-extensions/pages/compare/v1.0.0...v1.0.1) (2018-04-09)
+
+
+
+# [1.0.0](https://github.com/angular-material-extensions/pages/compare/v0.0.1...v1.0.0) (2018-04-09)
+
+
+### Bug Fixes
+
+* **components:** deleted old versions ([514d252](https://github.com/angular-material-extensions/pages/commit/514d252))
+* **ngx-material-pages:** added addtional material module (toolbar and button) ([f19c33d](https://github.com/angular-material-extensions/pages/commit/f19c33d))
+* **ngx-material-pages:** removed the template in the loader component ([6988556](https://github.com/angular-material-extensions/pages/commit/6988556))
+* **ngx-material-pages:** removed unwanted component and service (default) ([0511527](https://github.com/angular-material-extensions/pages/commit/0511527))
+
+
+### Features
+
+* **ngx-material-pages:** added page content component ([e40b4f5](https://github.com/angular-material-extensions/pages/commit/e40b4f5))
+* **ngx-material-pages:** added page loader component ([7bb6be4](https://github.com/angular-material-extensions/pages/commit/7bb6be4))
+* **ngx-material-pages:** added page outlook component ([72186c8](https://github.com/angular-material-extensions/pages/commit/72186c8))
+* **ngx-material-pages:** added synchronization between the page content and outlook ([650ac80](https://github.com/angular-material-extensions/pages/commit/650ac80))
+* **ngx-material-pages:** added the main ngx-material-pages component ([509ff32](https://github.com/angular-material-extensions/pages/commit/509ff32))
+* **ngx-material-pages:** improved the layout ([51630c9](https://github.com/angular-material-extensions/pages/commit/51630c9))
+* **project:** added cricleci configuration ([df72046](https://github.com/angular-material-extensions/pages/commit/df72046))
+* **ts-lint:** added codelyzer module as dev dependencies ([9317edb](https://github.com/angular-material-extensions/pages/commit/9317edb))
+
+
+
+## 0.0.1 (2018-04-08)
+
+
+
