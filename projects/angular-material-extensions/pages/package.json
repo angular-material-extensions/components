@@ -35,7 +35,7 @@
     "postbuild": "npm run build:schematics && npm run resync:schematics",
     "postpublish": "PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag pages_v$PACKAGE_VERSION && git push --tags",
     "semantic-release": "../../../node_modules/.bin/semantic-release",
-    "semantic-release-no-ci": "../../../node_modules/.bin/semantic-release --no-ci"
+    "semantic-release-no-ci": "../../../node_modules/.bin/semantic-release --no-ci -e ../../../node_modules/.bin/semantic-release-monorepo"
   },
   "peerDependencies": {
     "@angular/common": "^8.1.1",
