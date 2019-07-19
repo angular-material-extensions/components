@@ -10,6 +10,7 @@
 # dependencies
 /node_modules
 /projects/angular-material-extensions/dialogs/node_modules
+/projects/angular-material-extensions/pages/node_modules
 
 # profiling files
 chrome-profiler-events.json
