@@ -3,6 +3,7 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
+// @ts-ignore
 import {MatDialogsModule} from '@angular-material-extensions/dialogs';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FooterModule} from './shared/footer/footer';
