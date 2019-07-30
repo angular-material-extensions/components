@@ -39,6 +39,12 @@
       ],
       "@angular-material-extensions/pages/*": [
         "dist/angular-material-extensions/pages/*"
+      ],
+      "@angular-material-extensions/components": [
+        "dist/angular-material-extensions/components"
+      ],
+      "@angular-material-extensions/components/*": [
+        "dist/angular-material-extensions/components/*"
       ]
     }
   }
