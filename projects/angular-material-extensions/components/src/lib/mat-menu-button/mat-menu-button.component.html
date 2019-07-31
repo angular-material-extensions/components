@@ -1,0 +1,17 @@
+<button mat-button fxHide fxShow.gt-xs [matMenuTriggerFor]="menuButton" class="menu-button">
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <img [src]="selectedMenuItem?.imgURL" class="flag mr-8"/>
+    <span class="iso text-uppercase">{{ selectedMenuItem.text }}</span>
+  </div>
+</button>
+
+<mat-menu #menuButton="matMenu" [overlapTrigger]="false">
+  <button (click)="selectedMenuItem = item; onMenuItemSelected.emit(item.key)"
+          *ngFor="let item of menuItems"
+          mat-menu-item>
+          <span fxLayout="row" fxLayoutAlign="start center">
+            <img *ngIf="item.imgURL" [src]="item?.imgURL"/>
+            <span>{{ item.text }}</span>
+          </span>
+  </button>
+</mat-menu>
