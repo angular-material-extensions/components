@@ -128,7 +128,7 @@ jobs:
           name: release-dialogs-lib
           command: cd projects/angular-material-extensions/dialogs && npm run semantic-release || true
 
-  release-pages-lib:
+  release-components-lib:
     <<: *job_defaults
     steps:
       - checkout
@@ -137,8 +137,9 @@ jobs:
       - restore_cache:
           key: *dist_components_key
       - run:
-          name: release-pages-lib
-          command: cd projects/angular-material-extensions/pages && npx semantic-release || true
+          name: release-components-lib
+          command: cd projects/angular-material-extensions/components && npx semantic-release || true
+#          command: cd projects/angular-material-extensions/components && npx semantic-release || true
 
   deploy-app-dev:
     <<: *job_defaults

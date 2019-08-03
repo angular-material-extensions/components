@@ -113,6 +113,12 @@
         }
       ],
       [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "dist/angular-material-extensions/components"
+        }
+      ],
+      [
         "@semantic-release/git",
         {
           "assets": [
