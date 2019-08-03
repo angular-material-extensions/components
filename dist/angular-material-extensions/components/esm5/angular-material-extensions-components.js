@@ -1,0 +1,10 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { ComponentsService, ComponentsComponent, ComponentsModule, MatMenuButtonModule, MatMenuButtonComponent } from './public-api';
+export { MatNavigationComponent as ɵa } from './lib/mat-navigation/mat-navigation.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYW5ndWxhci1tYXRlcmlhbC1leHRlbnNpb25zLWNvbXBvbmVudHMuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9AYW5ndWxhci1tYXRlcmlhbC1leHRlbnNpb25zL2NvbXBvbmVudHMvIiwic291cmNlcyI6WyJhbmd1bGFyLW1hdGVyaWFsLWV4dGVuc2lvbnMtY29tcG9uZW50cy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBSUEsc0hBQWMsY0FBYyxDQUFDO0FBRTdCLE9BQU8sRUFBQyxzQkFBc0IsSUFBSSxFQUFFLEVBQUMsTUFBTSwrQ0FBK0MsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogR2VuZXJhdGVkIGJ1bmRsZSBpbmRleC4gRG8gbm90IGVkaXQuXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9wdWJsaWMtYXBpJztcblxuZXhwb3J0IHtNYXROYXZpZ2F0aW9uQ29tcG9uZW50IGFzIMm1YX0gZnJvbSAnLi9saWIvbWF0LW5hdmlnYXRpb24vbWF0LW5hdmlnYXRpb24uY29tcG9uZW50JzsiXX0=
