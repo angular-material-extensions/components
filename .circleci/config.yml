@@ -76,7 +76,8 @@ jobs:
           command: npm run build:dialogs
       - run:
           name: build @angular-material-extensions/components library
-          command: cd projects/angular-material-extensions/components && npm run build
+          command: npm run build:components
+#          command: cd projects/angular-material-extensions/components && npm run build
       - save_cache:
           key: *dist_dialogs_key
           paths:
