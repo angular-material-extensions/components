@@ -15,9 +15,9 @@ dist_key: &dist_key components-dist-{{ .Revision }}
 cache_dialogs_key: &cache_dialogs_key dialogs-deps-cache-{{ .Branch }}-{{ checksum "package-lock.json" }}
 dist_dialogs_key: &dist_dialogs_key dialogss-dist-{{ .Revision }}
 
-#pages dist package
-cache_pages_key: &cache_pages_key pages-deps-cache-{{ .Branch }}-{{ checksum "package-lock.json" }}
-dist_pages_key: &dist_pages_key pagess-dist-{{ .Revision }}
+#components dist package
+cache_components_key: &cache_components_key components-deps-cache-{{ .Branch }}-{{ checksum "package-lock.json" }}
+dist_components_key: &dist_components_key componentss-dist-{{ .Revision }}
 
 jobs:
   install:
@@ -75,16 +75,16 @@ jobs:
           name: build @angular-material-extensions/dialogs library
           command: npm run build:dialogs
       - run:
-          name: build @angular-material-extensions/pages library
-          command: cd projects/angular-material-extensions/pages && npm run build
+          name: build @angular-material-extensions/components library
+          command: cd projects/angular-material-extensions/components && npm run build
       - save_cache:
           key: *dist_dialogs_key
           paths:
             - dist/angular-material-extensions/dialogs
       - save_cache:
-          key: *dist_pages_key
+          key: *dist_components_key
           paths:
-            - dist/angular-material-extensions/pages
+            - dist/angular-material-extensions/components
 
   build-prerender-app:
     <<: *job_defaults
@@ -95,7 +95,7 @@ jobs:
       - restore_cache:
           key: *dist_dialogs_key
       - restore_cache:
-          key: *dist_pages_key
+          key: *dist_components_key
       - run:
           name: build-prerender
           command: sudo npm run build:prerender
@@ -135,7 +135,7 @@ jobs:
       - restore_cache:
           key: *cache_key
       - restore_cache:
-          key: *dist_pages_key
+          key: *dist_components_key
       - run:
           name: release-pages-lib
           command: cd projects/angular-material-extensions/pages && npx semantic-release || true
