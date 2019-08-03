@@ -139,7 +139,7 @@ jobs:
       - run:
           name: release-components-lib
           command: cd projects/angular-material-extensions/components && npx semantic-release || true
-#          command: cd projects/angular-material-extensions/components && npx semantic-release || true
+  #          command: cd projects/angular-material-extensions/components && npx semantic-release || true
 
   deploy-app-dev:
     <<: *job_defaults
@@ -189,12 +189,12 @@ workflows:
           filters:
             branches:
               only: dialogs
-      - release-pages-lib:
+      - release-components-lib:
           requires:
             - build-libraries
           filters:
             branches:
-              only: pages
+              only: components
       - release-app:
           requires:
             - build-prerender-app
