@@ -1,3 +1,30 @@
+# [1.2.0](https://github.com/angular-material-extensions/components/compare/v1.1.0...v1.2.0) (2019-08-05)
+
+
+### Bug Fixes
+
+* **components:** updated angular to v8.2.0 ([0ffabf4](https://github.com/angular-material-extensions/components/commit/0ffabf4))
+* **dialogs:** bumped npm version ([b5ae852](https://github.com/angular-material-extensions/components/commit/b5ae852))
+* **dialogs:** updated the package.json file and removed the node modules ([c030730](https://github.com/angular-material-extensions/components/commit/c030730))
+* **package:** removed the dist folder from semantic release git ([d70bb6b](https://github.com/angular-material-extensions/components/commit/d70bb6b))
+* **package:** updated angular material and other dependencies ([0447af3](https://github.com/angular-material-extensions/components/commit/0447af3))
+* **pages:** added semantic release mono repo module ([a17318e](https://github.com/angular-material-extensions/components/commit/a17318e))
+* **pages:** minor - semantic release config ([0740c82](https://github.com/angular-material-extensions/components/commit/0740c82))
+* **pages:** rollback the package ([3975146](https://github.com/angular-material-extensions/components/commit/3975146))
+* **pages:** rollback the package ([8c0e7e9](https://github.com/angular-material-extensions/components/commit/8c0e7e9))
+* **project:** downgrade ([097ba6f](https://github.com/angular-material-extensions/components/commit/097ba6f))
+* **project:** removed the pages lib from the monorepo ([d02ae5f](https://github.com/angular-material-extensions/components/commit/d02ae5f))
+* **project:** updated angular to v8.2.0 ([01710cf](https://github.com/angular-material-extensions/components/commit/01710cf))
+* **project:** v8 Beirut ([dc12845](https://github.com/angular-material-extensions/components/commit/dc12845))
+
+
+### Features
+
+* **components:** added `mat-menu-button` component and component library ([b4efa23](https://github.com/angular-material-extensions/components/commit/b4efa23))
+* **project:** added essential collection to the assets ([a2675c2](https://github.com/angular-material-extensions/components/commit/a2675c2))
+* **project:** added mat menu button page component for demo purposes ([8e0b10c](https://github.com/angular-material-extensions/components/commit/8e0b10c))
+* **project:** generated the components library ([a794ad1](https://github.com/angular-material-extensions/components/commit/a794ad1))
+
 ## [1.0.1](https://github.com/angular-material-extensions/components/compare/v1.0.0...v1.0.1) (2019-07-17)
 
 
@@ -53,4 +80,3 @@
 * **project:** integration of some new components from material angular io ([8937760](https://github.com/angular-material-extensions/components/commit/8937760))
 * **ssr:** added ssr and prerender strategy support ([10ec589](https://github.com/angular-material-extensions/components/commit/10ec589))
 * **ssr:** added ssr and prerender support ([133f8b8](https://github.com/angular-material-extensions/components/commit/133f8b8))
-
