@@ -5,8 +5,8 @@
     "build" : ""
   },
   "peerDependencies": {
-    "@angular/common": "^8.1.1",
-    "@angular/core": "^8.1.1",
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0",
     "@angular/flex-layout": "^8.0.0-beta.26"
   }
 }
