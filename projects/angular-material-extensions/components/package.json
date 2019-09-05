@@ -1,6 +1,16 @@
 {
   "name": "@angular-material-extensions/components",
+  "description": "Set of components, directives, services and modules to boost the app development with angular material ",
   "version": "0.0.1",
+  "author": {
+    "name": "anthonynahas",
+    "url": "https://github.com/anthonynahas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-material-extensions/components.git"
+  },
+  "license": "MIT",
   "scripts": {
     "build" : ""
   },
@@ -8,5 +18,8 @@
     "@angular/common": "^8.2.0",
     "@angular/core": "^8.2.0",
     "@angular/flex-layout": "^8.0.0-beta.26"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
