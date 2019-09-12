@@ -69,7 +69,6 @@ export class DialogsPageComponent implements OnInit {
         console.log('alert -> dismissed');
         this.shouldHide = false;
       });
-
   }
 
   openConfirmDialog() {
